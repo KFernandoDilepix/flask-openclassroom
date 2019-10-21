@@ -21,6 +21,7 @@ def data_base(data_limit=1):
 def control_data_quantity():
     data_limit = request.args.get('limit')
 
+    # checking the limit param otherwise it can crash the api.
     if data_limit == None:
         data_limit = 1
 

@@ -7,5 +7,9 @@ venv/
 
 __pycache__/
 
-# front app
+# front apps
 front/
+angular-front/
+
+# this is for temporary
+backend/
