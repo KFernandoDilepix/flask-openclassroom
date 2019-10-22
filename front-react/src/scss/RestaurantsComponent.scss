@@ -1,0 +1,12 @@
+.Restaurants {
+  border: 2px solid crimson;
+  max-width: 400px;
+
+  .card {
+    cursor: pointer;
+  }
+
+  .card:not(:first-of-type) {
+    margin-top: 50px;
+  }
+}

@@ -8,8 +8,8 @@ venv/
 __pycache__/
 
 # front apps
-front/
-angular-front/
+front-react/node_modules
+angular-front/node_modules
 
 # this is for temporary
 backend/
